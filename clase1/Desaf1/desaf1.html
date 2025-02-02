@@ -73,7 +73,15 @@
         <p>
             -Son útiles para: Controlar el flujo de ejecución del programa, Manejar errores, Agrupar sentencias. 
         </p>
-
+        <p>
+            Delimitación: Los bloques de código se delimitan con llaves {}
+        </p>
+        <p>
+            Anidamiento: Los bloques de código se pueden anidar unos dentro de otros.
+        </p>
+        <p>
+            Alcance: Las variables declaradas dentro de un bloque de código tienen un alcance limitado a ese bloque. Esto significa que no se pueden acceder a ellas desde fuera del bloque.
+        </p>
         <p style=" color: white;"> solo el modo oscuro ve esto jijiji</p>
         
         <h2>
@@ -281,8 +289,119 @@
         </p>
         <p style=" color: white;"> solo el modo oscuro ve esto jijiji</p>
         <h2>Ejemplos de codigo en JavaScript</h2>
+        <p>
+            ejemplo de usar el tipado debil para no tener que especificar el tipo de dato de una variable en codigo Javascript:
+        </p>
+        <p>
+            let variable = 10; // variable es de tipo número
+        </p>
+        <p>
+            console.log(variable); // muestra 10
+        </p>
+        <p style=" color: white;"> solo el modo oscuro ve esto jijiji</p>
+        <p>
+            variable = "hola"; // variable ahora es de tipo string
+        </p>
+        <p>
+            console.log(variable); // muestra "hola"
+        </p>
+        <p style=" color: white;"> solo el modo oscuro ve esto jijiji</p>
+        <p>
+            ejemplo de bloque de codigo:
+        </p>
+        <p>
+            // Bloque de código dentro de una función
+        </p>
+        <p>
+            function miFuncion() {
+            </p>
+            <p>
+                let nombre = "Juan"; // Variable local al bloque
+            </p>
+            <p>
+                let edad = 30; // Variable local al bloque
+            </p>
+            <p>
+                // Bloque de código dentro de un condicional
+            </p>
+            <p>
+                if (edad >= 18) {
+                </p>
+                <p>
+                    console.log(nombre + " es mayor de edad.");
+                </p>
+                <p>
+                } else {
+                </p>
+                <p>
+                    console.log(nombre + " es menor de edad.");
+                </p>
+                <p>
+                } 
+            </p>
+            <p>
+            }
+        </p>
+        <p>
+            miFuncion(); // Llamamos a la función para ejecutar el bloque de código
+        </p>
+        <p>
+            *Dentro de la función miFuncion(): Este bloque contiene la declaración de las variables nombre y edad, que son locales a la función. Esto significa que solo se pueden acceder a ellas dentro de la función.
+        </p>
+        <p>
+            *Dentro del condicional if: Este bloque se ejecuta si la condición edad >= 18 se cumple. En este caso, se muestra un mensaje en la consola indicando que la persona es mayor de edad.
+        </p>
+        <p style=" color: white;"> solo el modo oscuro ve esto jijiji</p>
+        <p>
+            ejemplo de los métodos para incluir código JavaScript en HTML
+        </p>
+        <p>
+            1. En línea (Inline):
+        </p>
+        <button onclick="alert('¡Hola!')">Haz clic aquí</button>
+        <p>
+            el codigo de la funcion de arriba:
+        </p>
+        <p>
+            &lt;button onclick="alert(&apos;¡Hola!&apos;)&gt; "Haz clic aquí &lt;/button&gt;
+        </p>
+        <p style=" color: white;"> solo el modo oscuro ve esto jijiji</p>
+        <p>
+            2. Interno (Internal)
+        </p>
+        <p>
+            El código JavaScript se coloca dentro de la etiqueta &lt;script> en la sección &lt;head> o &lt;body> del documento HTML:
+        </p>
+        <p>
+            &lt;script>
+        </p>
+        <p>
+            function saludar&#40;&#41; &#123;
+        </p>
+        <p>
+            console.log&#40;"¡Hola desde un script interno!"&#41;;
+        </p>
+        <p>
+            &#125;
+        </p>
+        <p>
+            &lt;/script>
+        </p>
+        <p style=" color: white;"> solo el modo oscuro ve esto jijiji</p>
+        <p>
+            3. Externo (External)
+        </p>
+        <p>
+            El código JavaScript se guarda en un archivo separado con extensión ".js".
+        </p>
+        <p>
+            Se utiliza la etiqueta &lt;script&gt; con el atributo "src" para enlazar el archivo JavaScript externo:
+        </p>
+        <p>
+            &lt;script src="script.js">&lt;/script>
+        </p>
     </body>
     <footer></footer>
-
+    
 </body>
 </html>
