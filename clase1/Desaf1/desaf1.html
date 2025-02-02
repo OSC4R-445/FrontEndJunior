@@ -152,6 +152,53 @@
         <p>
             Utiliza console.log() para información general que sea útil para el desarrollador, console.warn() para advertencias sobre posibles problemas en el código y console.error() para errores que impiden que el programa funcione correctamente.
         </p>
+        <p style=" color: white;"> solo el modo oscuro ve esto jijiji</p>
+        <h2>
+            Declaración de Variables y Tipos de Datos 
+        </h2>
+        <p>
+            tienes varias formas de declarar una variable:
+        </p>
+        <p>
+            1.-var
+        </p>
+        <p>
+            -Ámbito: El ámbito de las variables declaradas con var es global o local a la función en la que se declaran. Esto significa que se pueden acceder a ellas desde cualquier parte del código (si son globales) o desde cualquier punto dentro de la función (si son locales).
+        </p>
+        <p>
+            -Hoisting: Las variables declaradas con var se "elevan" (hoisting) al principio de su ámbito antes de que se ejecute el código. Esto significa que se pueden usar antes de su declaración real, pero su valor será undefined hasta que se les asigne un valor.
+        </p>
+        <p>
+            -Redeclaración: Puedes redeclarar una variable con var múltiples veces en el mismo ámbito sin que esto cause un error.
+        </p>
+        <p style=" color: white;"> solo el modo oscuro ve esto jijiji</p>
+        <p>2.-let</p>
+        <p>
+            -Ámbito: El ámbito de las variables declaradas con let es de bloque. Esto significa que solo son accesibles dentro del bloque de código (definido por llaves {}) en el que se declaran.
+        </p>
+        <p>
+            -Hoisting: Las variables declaradas con let también se elevan al principio de su ámbito, pero a diferencia de var, no se inicializan con undefined. Si intentas acceder a una variable let antes de su declaración, obtendrás un error de "referencia no inicializada".
+        </p>
+        <p>
+            -Redeclaración: No puedes redeclarar una variable con let en el mismo ámbito. Si lo intentas, obtendrás un error.
+        </p>
+        <p style=" color: white;"> solo el modo oscuro ve esto jijiji</p>
+        <p>
+            3.-const
+        </p>
+        <p>
+            -Ámbito: El ámbito de las variables declaradas con const es de bloque, al igual que let.
+        </p>
+        <p>
+            -Hoisting: Las variables declaradas con const también se elevan al principio de su ámbito, pero no se inicializan con undefined.
+        </p>
+        <p>
+            -Redeclaración: No puedes redeclarar una variable con const en el mismo ámbito.
+        </p>
+        <p>
+            -Inmutabilidad: Las variables declaradas con const se consideran constantes. Esto significa que su valor no puede ser reasignado después de su inicialización. Sin embargo, si la variable const contiene un objeto o un array, los elementos dentro de ese objeto o array sí pueden ser modificados.
+        </p>
+        
     </body>
     <footer></footer>
 
