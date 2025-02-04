@@ -1,0 +1,54 @@
+/* HEADER */
+header{
+    background-color: rgb(61, 0, 110);
+}
+body{
+    margin: 0px;
+}
+#headerdiv{
+    display: inline-block;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    color: turquoise;
+}
+.el-divheaderLeft {
+    margin-right: 20px;
+    float: left;
+    display: inline-flex;
+
+}
+.el-divheaderRight{
+    margin-left: 20px;
+    float: right;
+    display: inline-flex;
+    background: rgb(88, 44, 133);
+    border-radius: 200px;
+}
+#headerLeft{
+    align-items: center;
+}
+#logo{
+    height: 40px;;
+}
+#pfp{
+    height: 40px;
+    border-radius: 200px;
+}
+#campana{
+    padding: 7.5px;
+}
+/* END HEADER */
+/* BODY */
+#dashboardBox{
+    margin-top: 0;
+    background-color: aquamarine;
+    padding: 20px;
+}
+#labox{
+    margin: 20px;
+    border: 6px;
+    padding: 40%;
+    border-style: dashed;
+    background-color: burlywood;
+}
