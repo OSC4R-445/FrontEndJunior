@@ -1,0 +1,11 @@
+  Los lunes las entradas son a mitad de precio. Los martes los estudiantes tienen mitad de precio.
+  
+  Los miercoles, si ese dia la pelicula se presenta el pre-estreno tiene un importe adicional del 30%. Los jueves las mujeres tienen un 30% de descuento. 
+ 
+ Para el resto de dias, los niños menores de 8 años tienen un descuento del 20% adicional a cualquier descuento otorgado segun aplique. 
+ 
+ Para cualquier dia, exceptuando los lunes y jueves los adultos con edad igual o mayor a 60 años tienen un 40% de descuento. 
+ 
+ Ademas la empresa esta otorgando un numero de ticket del 1 al 31. En caso de que el ticket tenga el numero 21 el usuario obtendra la entrada gratuita (este numero de ticket se general al azar). 
+ 
+ Suponga que en todas, el precio del boleto general es de 10$ USD. Premisa: El usuario solo puede comprar una entrada a la vez.
